@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4910AF9720F4529700EC73D4 /* GestureAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910AF9620F4529700EC73D4 /* GestureAdditions.swift */; };
+		4917C22A20659214008FFB5A /* AltViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917C22920659214008FFB5A /* AltViewController.swift */; };
+		4917C22C2065945D008FFB5A /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917C22B2065945D008FFB5A /* PopoverViewController.swift */; };
+		4917C22E206594B7008FFB5A /* Operators_and_extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917C22D206594B7008FFB5A /* Operators_and_extensions.swift */; };
+		4917C2322065955D008FFB5A /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917C2312065955D008FFB5A /* AppTheme.swift */; };
+		492B643A20FF89A8009672B5 /* RemoteDebugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492B643920FF89A8009672B5 /* RemoteDebugger.swift */; };
+		492E43B3208A5E440047E983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492E43B2208A5E440047E983 /* Assets.xcassets */; };
+		4930504E214C790400CCC41E /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4930504D214C790400CCC41E /* IntentHandler.swift */; };
+		49305057214C790400CCC41E /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49305056214C790400CCC41E /* IntentsUI.framework */; };
+		4930505A214C790400CCC41E /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49305059214C790400CCC41E /* IntentViewController.swift */; };
+		49305061214C790400CCC41E /* TVPowerOnUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 49305054214C790400CCC41E /* TVPowerOnUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		49305064214C790400CCC41E /* TVPowerOn.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4930504B214C790300CCC41E /* TVPowerOn.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		49305080214C79A000CCC41E /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4930507F214C79A000CCC41E /* Intents.intentdefinition */; };
+		49305082214C7EE200CCC41E /* TVPowerOnHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49305081214C7EE200CCC41E /* TVPowerOnHandler.swift */; };
+		49305086214C82C200CCC41E /* MessageInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49305083214C82C200CCC41E /* MessageInfoController.swift */; };
+		4930508B214C8E8100CCC41E /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4930507F214C79A000CCC41E /* Intents.intentdefinition */; };
+		4930508C214C8E8100CCC41E /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4930507F214C79A000CCC41E /* Intents.intentdefinition */; };
+		4930739B20881D070011CC41 /* LayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4930739A20881D070011CC41 /* LayoutManager.swift */; };
+		4930739D208821EB0011CC41 /* TimeDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4930739C208821EB0011CC41 /* TimeDelay.swift */; };
+		4930739F2088281B0011CC41 /* JMPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4930739E2088281B0011CC41 /* JMPresentation.swift */; };
+		493073A1208828390011CC41 /* AnimationDescriptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493073A0208828390011CC41 /* AnimationDescriptors.swift */; };
+		493073A42088DCDA0011CC41 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493073A32088DCDA0011CC41 /* ColorWheel.swift */; };
+		4987D978213ADFEB006C64C1 /* DAAPConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4987D977213ADFEB006C64C1 /* DAAPConst.swift */; };
+		4992BF7720ED28EE000DF3F0 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4992BF7620ED28EE000DF3F0 /* OptionsViewController.swift */; };
+		499F63C5214EE129001DBD8F /* VolumeUpHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F63C4214EE129001DBD8F /* VolumeUpHandler.swift */; };
+		499F63C72151DB55001DBD8F /* AmbilightOnHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F63C62151DB55001DBD8F /* AmbilightOnHandler.swift */; };
+		499F63C92151E079001DBD8F /* Select.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F63C82151E079001DBD8F /* Select.swift */; };
+		49A73E4520F2F3DC0024EFE8 /* ContainerTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A73E3E20F2F3DC0024EFE8 /* ContainerTags.swift */; };
+		49A73E4620F2F3DC0024EFE8 /* CMBECommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A73E3F20F2F3DC0024EFE8 /* CMBECommand.swift */; };
+		49A73E4720F2F3DC0024EFE8 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A73E4020F2F3DC0024EFE8 /* Tag.swift */; };
+		49A73E4820F2F3DC0024EFE8 /* DAAPRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A73E4120F2F3DC0024EFE8 /* DAAPRequests.swift */; };
+		49A73E4920F2F3DC0024EFE8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A73E4220F2F3DC0024EFE8 /* Data.swift */; };
+		49A73E4A20F2F3DC0024EFE8 /* DataConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A73E4320F2F3DC0024EFE8 /* DataConverter.swift */; };
+		49A73E4B20F2F3DC0024EFE8 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A73E4420F2F3DC0024EFE8 /* Networking.swift */; };
+		49A73E4D20F306A20024EFE8 /* ATVCommander.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A73E4C20F306A20024EFE8 /* ATVCommander.swift */; };
+		49C2057E20EBF0A500D8AA72 /* AmbilightOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C2057D20EBF0A500D8AA72 /* AmbilightOptions.swift */; };
+		49C2058020EBF1C400D8AA72 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C2057F20EBF1C400D8AA72 /* DataSource.swift */; };
+		49E37A17214ED251005DA5E6 /* IntentVisualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E37A16214ED251005DA5E6 /* IntentVisualViewController.swift */; };
+		49EFDDDD209E3D1E0021D0BE /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFDDDC209E3D1E0021D0BE /* CustomAlertViewController.swift */; };
+		49F168BC20656420007A5622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F168BB20656420007A5622 /* AppDelegate.swift */; };
+		49F168BE20656420007A5622 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F168BD20656420007A5622 /* MainViewController.swift */; };
+		49F168C620656420007A5622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F168C420656420007A5622 /* LaunchScreen.storyboard */; };
+		49F168CE20656491007A5622 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F168CD20656491007A5622 /* LoadingView.swift */; };
+		49F168D020656F74007A5622 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F168CF20656F74007A5622 /* Views.swift */; };
+		49F168D42065731B007A5622 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F168D32065731B007A5622 /* SplashScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4930505F214C790400CCC41E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F168B020656420007A5622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49305053214C790400CCC41E;
+			remoteInfo = TVPowerOnUI;
+		};
+		49305062214C790400CCC41E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F168B020656420007A5622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4930504A214C790300CCC41E;
+			remoteInfo = TVPowerOn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4930506B214C790400CCC41E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				49305061214C790400CCC41E /* TVPowerOnUI.appex in Embed App Extensions */,
+				49305064214C790400CCC41E /* TVPowerOn.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4910AF9620F4529700EC73D4 /* GestureAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAdditions.swift; sourceTree = "<group>"; };
+		4917C22920659214008FFB5A /* AltViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltViewController.swift; sourceTree = "<group>"; };
+		4917C22B2065945D008FFB5A /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		4917C22D206594B7008FFB5A /* Operators_and_extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators_and_extensions.swift; sourceTree = "<group>"; };
+		4917C2312065955D008FFB5A /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		492B643920FF89A8009672B5 /* RemoteDebugger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDebugger.swift; sourceTree = "<group>"; };
+		492E43B2208A5E440047E983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49305046214C788200CCC41E /* Ambilight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ambilight.entitlements; sourceTree = "<group>"; };
+		4930504B214C790300CCC41E /* TVPowerOn.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TVPowerOn.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4930504D214C790400CCC41E /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		4930504F214C790400CCC41E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49305054214C790400CCC41E /* TVPowerOnUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TVPowerOnUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		49305056214C790400CCC41E /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		49305059214C790400CCC41E /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		4930505E214C790400CCC41E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4930507F214C79A000CCC41E /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		49305081214C7EE200CCC41E /* TVPowerOnHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TVPowerOnHandler.swift; path = Ambilight/TVPowerOnHandler.swift; sourceTree = SOURCE_ROOT; };
+		49305083214C82C200CCC41E /* MessageInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageInfoController.swift; sourceTree = "<group>"; };
+		4930739A20881D070011CC41 /* LayoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutManager.swift; sourceTree = "<group>"; };
+		4930739C208821EB0011CC41 /* TimeDelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeDelay.swift; sourceTree = "<group>"; };
+		4930739E2088281B0011CC41 /* JMPresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMPresentation.swift; sourceTree = "<group>"; };
+		493073A0208828390011CC41 /* AnimationDescriptors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDescriptors.swift; sourceTree = "<group>"; };
+		493073A32088DCDA0011CC41 /* ColorWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
+		4987D977213ADFEB006C64C1 /* DAAPConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAAPConst.swift; sourceTree = "<group>"; };
+		4992BF7620ED28EE000DF3F0 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		499F63C4214EE129001DBD8F /* VolumeUpHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeUpHandler.swift; sourceTree = "<group>"; };
+		499F63C62151DB55001DBD8F /* AmbilightOnHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbilightOnHandler.swift; sourceTree = "<group>"; };
+		499F63C82151E079001DBD8F /* Select.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select.swift; sourceTree = "<group>"; };
+		49A73E3E20F2F3DC0024EFE8 /* ContainerTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerTags.swift; sourceTree = "<group>"; };
+		49A73E3F20F2F3DC0024EFE8 /* CMBECommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMBECommand.swift; sourceTree = "<group>"; };
+		49A73E4020F2F3DC0024EFE8 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		49A73E4120F2F3DC0024EFE8 /* DAAPRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAAPRequests.swift; sourceTree = "<group>"; };
+		49A73E4220F2F3DC0024EFE8 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		49A73E4320F2F3DC0024EFE8 /* DataConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConverter.swift; sourceTree = "<group>"; };
+		49A73E4420F2F3DC0024EFE8 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		49A73E4C20F306A20024EFE8 /* ATVCommander.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATVCommander.swift; sourceTree = "<group>"; };
+		49C2057D20EBF0A500D8AA72 /* AmbilightOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbilightOptions.swift; sourceTree = "<group>"; };
+		49C2057F20EBF1C400D8AA72 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		49E37A16214ED251005DA5E6 /* IntentVisualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentVisualViewController.swift; sourceTree = "<group>"; };
+		49EFDDDC209E3D1E0021D0BE /* CustomAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		49F168B820656420007A5622 /* Ambilight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ambilight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F168BB20656420007A5622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49F168BD20656420007A5622 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		49F168C520656420007A5622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49F168C720656420007A5622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F168CD20656491007A5622 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		49F168CF20656F74007A5622 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		49F168D32065731B007A5622 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49305048214C790300CCC41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49305051214C790400CCC41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49305057214C790400CCC41E /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F168B520656420007A5622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4917C23320659A71008FFB5A /* View Libs */ = {
+			isa = PBXGroup;
+			children = (
+				49EFDDDC209E3D1E0021D0BE /* CustomAlertViewController.swift */,
+				4917C22920659214008FFB5A /* AltViewController.swift */,
+				493073A32088DCDA0011CC41 /* ColorWheel.swift */,
+				49F168CD20656491007A5622 /* LoadingView.swift */,
+				4930739C208821EB0011CC41 /* TimeDelay.swift */,
+				4930739A20881D070011CC41 /* LayoutManager.swift */,
+				4917C22D206594B7008FFB5A /* Operators_and_extensions.swift */,
+				4917C2312065955D008FFB5A /* AppTheme.swift */,
+				493073A2208828400011CC41 /* Transition */,
+				4917C22B2065945D008FFB5A /* PopoverViewController.swift */,
+				49F168CF20656F74007A5622 /* Views.swift */,
+			);
+			path = "View Libs";
+			sourceTree = "<group>";
+		};
+		4930504C214C790400CCC41E /* TVPowerOn */ = {
+			isa = PBXGroup;
+			children = (
+				49305083214C82C200CCC41E /* MessageInfoController.swift */,
+				4930504D214C790400CCC41E /* IntentHandler.swift */,
+				49305081214C7EE200CCC41E /* TVPowerOnHandler.swift */,
+				499F63C4214EE129001DBD8F /* VolumeUpHandler.swift */,
+				499F63C62151DB55001DBD8F /* AmbilightOnHandler.swift */,
+				499F63C82151E079001DBD8F /* Select.swift */,
+				4930504F214C790400CCC41E /* Info.plist */,
+			);
+			path = TVPowerOn;
+			sourceTree = "<group>";
+		};
+		49305055214C790400CCC41E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49305056214C790400CCC41E /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49305058214C790400CCC41E /* TVPowerOnUI */ = {
+			isa = PBXGroup;
+			children = (
+				49305059214C790400CCC41E /* IntentViewController.swift */,
+				49E37A16214ED251005DA5E6 /* IntentVisualViewController.swift */,
+				4930505E214C790400CCC41E /* Info.plist */,
+			);
+			path = TVPowerOnUI;
+			sourceTree = "<group>";
+		};
+		493073A2208828400011CC41 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				493073A0208828390011CC41 /* AnimationDescriptors.swift */,
+				4930739E2088281B0011CC41 /* JMPresentation.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		49A73E3D20F2F3CA0024EFE8 /* DAAP */ = {
+			isa = PBXGroup;
+			children = (
+				49A73E3F20F2F3DC0024EFE8 /* CMBECommand.swift */,
+				49A73E3E20F2F3DC0024EFE8 /* ContainerTags.swift */,
+				49A73E4120F2F3DC0024EFE8 /* DAAPRequests.swift */,
+				49A73E4220F2F3DC0024EFE8 /* Data.swift */,
+				49A73E4320F2F3DC0024EFE8 /* DataConverter.swift */,
+				49A73E4420F2F3DC0024EFE8 /* Networking.swift */,
+				49A73E4020F2F3DC0024EFE8 /* Tag.swift */,
+				4910AF9620F4529700EC73D4 /* GestureAdditions.swift */,
+				49A73E4C20F306A20024EFE8 /* ATVCommander.swift */,
+				4987D977213ADFEB006C64C1 /* DAAPConst.swift */,
+			);
+			path = DAAP;
+			sourceTree = "<group>";
+		};
+		49F168AF20656420007A5622 = {
+			isa = PBXGroup;
+			children = (
+				4930507F214C79A000CCC41E /* Intents.intentdefinition */,
+				49A73E3D20F2F3CA0024EFE8 /* DAAP */,
+				49F168BA20656420007A5622 /* Ambilight */,
+				4930504C214C790400CCC41E /* TVPowerOn */,
+				49305058214C790400CCC41E /* TVPowerOnUI */,
+				49305055214C790400CCC41E /* Frameworks */,
+				49F168B920656420007A5622 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49F168B920656420007A5622 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F168B820656420007A5622 /* Ambilight.app */,
+				4930504B214C790300CCC41E /* TVPowerOn.appex */,
+				49305054214C790400CCC41E /* TVPowerOnUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F168BA20656420007A5622 /* Ambilight */ = {
+			isa = PBXGroup;
+			children = (
+				49305046214C788200CCC41E /* Ambilight.entitlements */,
+				49F168BB20656420007A5622 /* AppDelegate.swift */,
+				49F168D32065731B007A5622 /* SplashScreen.swift */,
+				49F168BD20656420007A5622 /* MainViewController.swift */,
+				4992BF7620ED28EE000DF3F0 /* OptionsViewController.swift */,
+				49C2057D20EBF0A500D8AA72 /* AmbilightOptions.swift */,
+				49C2057F20EBF1C400D8AA72 /* DataSource.swift */,
+				4917C23320659A71008FFB5A /* View Libs */,
+				49F168C420656420007A5622 /* LaunchScreen.storyboard */,
+				49F168C720656420007A5622 /* Info.plist */,
+				492E43B2208A5E440047E983 /* Assets.xcassets */,
+				492B643920FF89A8009672B5 /* RemoteDebugger.swift */,
+			);
+			path = Ambilight;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4930504A214C790300CCC41E /* TVPowerOn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49305068214C790400CCC41E /* Build configuration list for PBXNativeTarget "TVPowerOn" */;
+			buildPhases = (
+				49305047214C790300CCC41E /* Sources */,
+				49305048214C790300CCC41E /* Frameworks */,
+				49305049214C790300CCC41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVPowerOn;
+			productName = TVPowerOn;
+			productReference = 4930504B214C790300CCC41E /* TVPowerOn.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		49305053214C790400CCC41E /* TVPowerOnUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49305065214C790400CCC41E /* Build configuration list for PBXNativeTarget "TVPowerOnUI" */;
+			buildPhases = (
+				49305050214C790400CCC41E /* Sources */,
+				49305051214C790400CCC41E /* Frameworks */,
+				49305052214C790400CCC41E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVPowerOnUI;
+			productName = TVPowerOnUI;
+			productReference = 49305054214C790400CCC41E /* TVPowerOnUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		49F168B720656420007A5622 /* Ambilight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F168CA20656420007A5622 /* Build configuration list for PBXNativeTarget "Ambilight" */;
+			buildPhases = (
+				49F168B420656420007A5622 /* Sources */,
+				49F168B520656420007A5622 /* Frameworks */,
+				49F168B620656420007A5622 /* Resources */,
+				4930506B214C790400CCC41E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49305060214C790400CCC41E /* PBXTargetDependency */,
+				49305063214C790400CCC41E /* PBXTargetDependency */,
+			);
+			name = Ambilight;
+			productName = Ambilight;
+			productReference = 49F168B820656420007A5622 /* Ambilight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F168B020656420007A5622 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Jmade;
+				TargetAttributes = {
+					4930504A214C790300CCC41E = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
+					49305053214C790400CCC41E = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
+					49F168B720656420007A5622 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 49F168B320656420007A5622 /* Build configuration list for PBXProject "Ambilight" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49F168AF20656420007A5622;
+			productRefGroup = 49F168B920656420007A5622 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49F168B720656420007A5622 /* Ambilight */,
+				4930504A214C790300CCC41E /* TVPowerOn */,
+				49305053214C790400CCC41E /* TVPowerOnUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49305049214C790300CCC41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49305052214C790400CCC41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F168B620656420007A5622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492E43B3208A5E440047E983 /* Assets.xcassets in Resources */,
+				49F168C620656420007A5622 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49305047214C790300CCC41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4930504E214C790400CCC41E /* IntentHandler.swift in Sources */,
+				49305082214C7EE200CCC41E /* TVPowerOnHandler.swift in Sources */,
+				499F63C5214EE129001DBD8F /* VolumeUpHandler.swift in Sources */,
+				499F63C72151DB55001DBD8F /* AmbilightOnHandler.swift in Sources */,
+				4930508B214C8E8100CCC41E /* Intents.intentdefinition in Sources */,
+				49305086214C82C200CCC41E /* MessageInfoController.swift in Sources */,
+				499F63C92151E079001DBD8F /* Select.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49305050214C790400CCC41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E37A17214ED251005DA5E6 /* IntentVisualViewController.swift in Sources */,
+				4930508C214C8E8100CCC41E /* Intents.intentdefinition in Sources */,
+				4930505A214C790400CCC41E /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F168B420656420007A5622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4917C22C2065945D008FFB5A /* PopoverViewController.swift in Sources */,
+				4917C2322065955D008FFB5A /* AppTheme.swift in Sources */,
+				49F168D42065731B007A5622 /* SplashScreen.swift in Sources */,
+				49A73E4B20F2F3DC0024EFE8 /* Networking.swift in Sources */,
+				49F168D020656F74007A5622 /* Views.swift in Sources */,
+				4987D978213ADFEB006C64C1 /* DAAPConst.swift in Sources */,
+				49F168BE20656420007A5622 /* MainViewController.swift in Sources */,
+				49C2057E20EBF0A500D8AA72 /* AmbilightOptions.swift in Sources */,
+				4910AF9720F4529700EC73D4 /* GestureAdditions.swift in Sources */,
+				49A73E4720F2F3DC0024EFE8 /* Tag.swift in Sources */,
+				49A73E4920F2F3DC0024EFE8 /* Data.swift in Sources */,
+				4917C22A20659214008FFB5A /* AltViewController.swift in Sources */,
+				49F168BC20656420007A5622 /* AppDelegate.swift in Sources */,
+				49F168CE20656491007A5622 /* LoadingView.swift in Sources */,
+				4917C22E206594B7008FFB5A /* Operators_and_extensions.swift in Sources */,
+				4930739D208821EB0011CC41 /* TimeDelay.swift in Sources */,
+				493073A42088DCDA0011CC41 /* ColorWheel.swift in Sources */,
+				492B643A20FF89A8009672B5 /* RemoteDebugger.swift in Sources */,
+				4992BF7720ED28EE000DF3F0 /* OptionsViewController.swift in Sources */,
+				49A73E4620F2F3DC0024EFE8 /* CMBECommand.swift in Sources */,
+				49A73E4D20F306A20024EFE8 /* ATVCommander.swift in Sources */,
+				49A73E4820F2F3DC0024EFE8 /* DAAPRequests.swift in Sources */,
+				49C2058020EBF1C400D8AA72 /* DataSource.swift in Sources */,
+				49EFDDDD209E3D1E0021D0BE /* CustomAlertViewController.swift in Sources */,
+				49A73E4520F2F3DC0024EFE8 /* ContainerTags.swift in Sources */,
+				49A73E4A20F2F3DC0024EFE8 /* DataConverter.swift in Sources */,
+				4930739F2088281B0011CC41 /* JMPresentation.swift in Sources */,
+				4930739B20881D070011CC41 /* LayoutManager.swift in Sources */,
+				493073A1208828390011CC41 /* AnimationDescriptors.swift in Sources */,
+				49305080214C79A000CCC41E /* Intents.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49305060214C790400CCC41E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49305053214C790400CCC41E /* TVPowerOnUI */;
+			targetProxy = 4930505F214C790400CCC41E /* PBXContainerItemProxy */;
+		};
+		49305063214C790400CCC41E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4930504A214C790300CCC41E /* TVPowerOn */;
+			targetProxy = 49305062214C790400CCC41E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49F168C420656420007A5622 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F168C520656420007A5622 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49305066214C790400CCC41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26YKVY7C4G;
+				INFOPLIST_FILE = TVPowerOnUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Ambi.Ambilight.TVPowerOnUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49305067214C790400CCC41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26YKVY7C4G;
+				INFOPLIST_FILE = TVPowerOnUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Ambi.Ambilight.TVPowerOnUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49305069214C790400CCC41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26YKVY7C4G;
+				INFOPLIST_FILE = TVPowerOn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Ambi.Ambilight.TVPowerOn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4930506A214C790400CCC41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26YKVY7C4G;
+				INFOPLIST_FILE = TVPowerOn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Ambi.Ambilight.TVPowerOn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49F168C820656420007A5622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49F168C920656420007A5622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49F168CB20656420007A5622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ambilight/Ambilight.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26YKVY7C4G;
+				INFOPLIST_FILE = Ambilight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ambi.Ambilight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49F168CC20656420007A5622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ambilight/Ambilight.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26YKVY7C4G;
+				INFOPLIST_FILE = Ambilight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ambi.Ambilight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49305065214C790400CCC41E /* Build configuration list for PBXNativeTarget "TVPowerOnUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49305066214C790400CCC41E /* Debug */,
+				49305067214C790400CCC41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49305068214C790400CCC41E /* Build configuration list for PBXNativeTarget "TVPowerOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49305069214C790400CCC41E /* Debug */,
+				4930506A214C790400CCC41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F168B320656420007A5622 /* Build configuration list for PBXProject "Ambilight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F168C820656420007A5622 /* Debug */,
+				49F168C920656420007A5622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F168CA20656420007A5622 /* Build configuration list for PBXNativeTarget "Ambilight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F168CB20656420007A5622 /* Debug */,
+				49F168CC20656420007A5622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49F168B020656420007A5622 /* Project object */;
+}
